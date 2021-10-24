@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Two Column</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <meta charset="utf-8">
+        <style type="text/css">
+                body {
+                    margin: 0 auto;
+                    padding: 0 5%;
+                    background: purple;
+                }
+                .container-fluid {
+                    display: table;
+                    height: 100%;
+                    border: 0;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    padding: 10px 0;
+                }
+                header { margin-bottom: 10px }
+                footer { margin-top: 10px  }
+                .row {
+                    display: table-row;
+                    height: 100%;
+                    vertical-align: top;
+                }
+                #left, #right {
+                    display: table-cell;
+                    vertical-align: top;
+                    height: 100%;
+                    float: left;
+                }
+            }
+            header, footer { height: 50px; overflow: hidden }
+            header, footer { background: white; text-align: center }
+            #left { padding: 0; background: purple; }
+            #right { padding: 0; background: white; }
+            nav, article { padding: 30px; }
+            nav a { display: block }
+            article { text-align: justify }
+            h1, h2 { margin: 220; padding: 0; font-size: 25px }
+            h1 { padding-top: 10px }
+            h2 { padding-bottom: 50px }
+            hr { border-color: black }
+        </style>
+    </head>
+<body>
+  <div id="wrapper">
+    <header>
+        <h1>Header</h1>
+<a href="https://www.facebook.com">Facebook</a>
+<a href="https://www.twitter.com">Twitter</a>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="left" class="col-md-3">
+                <nav>
+                    <h2>Layout Example</h2>
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                    <hr />
+                </nav>
+            </div>
+            <div id="right" class="col-md-9">
+                <article>
+                    <main>
+<img src="file:///C:/Users/tmntl/Downloads/77a4e94882ce6eb7d47adce13966265e.jpg" width=300>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus, ligula pulvinar molestie mattis, magna nibh imperdiet elit, eu accumsan diam odio vitae ipsum. Aenean eget tortor enim. Cras tristique aliquam tempor. Vestibulum fringilla at est non
+        fermentum. Aliquam ullamcorper, nisi sed viverra lacinia, risus lorem mattis tellus, vitae malesuada massa purus ut elit. Fusce tincidunt metus ante, vitae posuere ex imperdiet et. Nunc viverra mauris sit amet feugiat fermentum. Nam iaculis ex
+        id aliquam venenatis. Vestibulum accumsan ligula euismod nunc fermentum rutrum. Vivamus rutrum, nisl et tempor tristique, nisi mauris tristique elit, vitae vehicula enim sem a nunc. Nunc ut mi venenatis, tempor quam ut, tristique leo. Ut turpis
+        diam, hendrerit non volutpat eget, tincidunt sed ex.</p>
+      <p>
+        Ut vitae cursus erat. Pellentesque non dolor pulvinar, venenatis neque et, dictum leo. Sed ullamcorper felis ex, et tincidunt est sodales quis. Sed porttitor velit in neque aliquet dignissim. Nullam sed hendrerit urna, in pharetra risus. Nam iaculis est
+        purus, at tincidunt ipsum dictum ac. Nulla rutrum orci in tempus fringilla. Pellentesque lobortis lobortis vestibulum. Cras sed urna ut justo blandit gravida non ac mi. Suspendisse a faucibus magna, at rutrum elit. Vestibulum at finibus lorem,
+        id laoreet elit. Vestibulum aliquet sed eros at tristique. Aenean rutrum, dui nec vehicula laoreet, quam magna euismod velit, non mollis nulla tortor ut est. Quisque nec nisi in sem porttitor tristique at quis nisl. Etiam at eros odio.</p>
+      <p>
+        Aliquam erat volutpat. Morbi vestibulum ullamcorper dui, quis faucibus magna venenatis non. Nam maximus vitae lacus et aliquam. Pellentesque efficitur pretium tempor. Nulla tellus metus, porta vitae suscipit id, tempus sit amet nisl. Phasellus vitae neque
+        eget tortor lacinia maximus et non eros. Ut tincidunt cursus tellus, eu eleifend quam egestas in. Nulla congue mauris et quam elementum, in facilisis diam ultrices. Aenean bibendum, leo in interdum imperdiet, odio dolor molestie lorem, sed efficitur
+        odio arcu fringilla sem. Fusce at purus semper, viverra magna nec, pretium lacus. Aliquam erat volutpat.</p>
+    </main>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
+</body>
+</html>
